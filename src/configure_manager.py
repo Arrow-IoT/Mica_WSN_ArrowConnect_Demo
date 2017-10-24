@@ -82,7 +82,7 @@ try:
 	joinKey = [0x44, 0x55, 0x53, 0x54, 0x4E, 0x45, 0x54, 0x57, 0x4F, 0x52, 0x4B, 0x53, 0x52, 0x4F, 0x43, 0x4B]
 	print "Setting common join key to {0}".format(FormatUtils.formatBuffer(joinKey))
 	manager.dn_setCommonJoinKey(joinKey)
-	445553544E4554574F524B53524F434B
+    
 	networkId = 1337
 	apTxPower = 8 # TX power 8
 	frameProfile = 1 # Frame profile 1
